@@ -13,6 +13,16 @@
 An uncontrolled component is a React component that keeps track of all its own internal state and releases data only when some event occurs (e.g., Submit). 
 </details>
 
+1. Navigate to `UncontrolledInput.jsx` file
+2. Import `React` and `useRef` Hook
+3. Create functional component called `UncontrolledInput` and export it
+4. Add a `form` with an `input` for a user to enter their name
+5. Add a `submit` input
+6. Write a `handleSubmit` function with an empty body and add an `onSubmit` event to form 
+7. Implement a `ref` to the `input` using the `useRef` hook
+8. Add a `console.log` that logs the user's `name` input upon submission of the form using the `ref`
+
+
 ## Controlled Components
 
 <details>
