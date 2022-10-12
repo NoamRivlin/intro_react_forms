@@ -13,15 +13,15 @@
 An uncontrolled component is a React component that keeps track of all its own internal state and releases data only when some event occurs (e.g., Submit). 
 </details>
 
-1. Navigate to `UncontrolledInput.jsx` file
-2. Import `React` and `useRef` Hook
-3. Create functional component called `UncontrolledInput` and export it
-4. Add a `form` with an `input` for a user to enter their name
-5. Add a `submit` input
-6. Write a `handleSubmit` function with an empty body and add an `onSubmit` event to form 
-7. Implement a `ref` to the `input` using the `useRef` hook
-8. Add a `console.log` that logs the user's `name` input upon submission of the form using the `ref`
+### Instructions
 
+1. Create a functional component in the `UncontrolledInput.jsx` file
+2. Import `React` and `useRef` Hook
+3. Add a `form` with an `input` for a user to enter their name
+4. Add a `submit` input
+5. Write a `handleSubmit` function with an empty body and add an `onSubmit` event to form
+6. Implement a `ref` to the `input` using the `useRef` hook
+7. Add a `console.log` that logs the user's `name` input upon submission of the form using the `ref`
 
 ## Controlled Components
 
@@ -29,3 +29,11 @@ An uncontrolled component is a React component that keeps track of all its own i
 <summary>What is an Controlled React component?</summary>
 A controlled component is a React component that does not keep track of its own internal state. Typically, a parent component tracks state, then passes props to the controlled component.
 </details>
+
+### Instructions
+
+1. Create a functional component in the `ControlledInput.jsx` file
+2. Import the `useState` hook
+4. Create a controlled email input
+5. Import the `useEffect` hook
+6. Implement email input validation that logs `Invalid email format` if there is no `@` symbol and `Valid email, great job!` if the email input is valid
