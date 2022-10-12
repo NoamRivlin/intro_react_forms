@@ -34,6 +34,11 @@ A controlled component is a React component that does not keep track of its own 
 
 1. Create a functional component in the `ControlledInput.jsx` file
 2. Import the `useState` hook
-4. Create a controlled email input
-5. Import the `useEffect` hook
-6. Implement email input validation that logs `Invalid email format` if there is no `@` symbol and `Valid email, great job!` if the email input is valid
+3. Create a controlled email input
+4. Import the `useEffect` hook
+5. Implement email input validation that logs `Invalid email format` if there is no `@` symbol and `Valid email, great job!` if the email input is valid
+
+## Comprehension Questions
+
+- What is the primary difference between a controlled component vs an uncontrolled component??
+- In what circumstances would you implement a controlled component vs an uncontrolled component?
